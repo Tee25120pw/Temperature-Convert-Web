@@ -1,0 +1,39 @@
+<head>
+    <meta charset="utf-8">
+    <title>Convert Temperature.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">    
+</head>
+
+<body>
+    <div class="buttom2" style="margin-bottom: 20px;">
+    <h2 style="color: rgb(252, 246, 246);text-align: center;">โปรแกรมแปลงอุณหภูมิ</h2></div>
+    <body style="background-color: rgb(250, 238, 185);margin: 0;padding: 0;font-family: 'Mitr', sans-serif;">  
+    <div class="buttom2" style=" font-family: 'Mitr', sans-serif;">
+    <input id="inputvalue" type="text"/>
+
+    <button onclick="CeltoFahrenheitprogram(document.getElementById('inputvalue').value)">Celsius แปลงเป็น Fahrenheit</button>
+    <button onclick="CeltoKelvinprogram(document.getElementById('inputvalue').value)">Celsius แปลงเป็น Kelvin</button>
+
+    <button onclick="FahtoCelsiusprogram(document.getElementById('inputvalue').value)">Fahrenheit แปลงเป็น Celsius</button>
+    <button onclick="FahtoKelvinprogram(document.getElementById('inputvalue').value)">Fahrenheit แปลงเป็น Kelvin</button>
+
+    <button onclick="KeltoCelsiusprogram(document.getElementById('inputvalue').value)">Kelvin แปลงเป็น Celsius</button>
+    <button onclick="KeltoFahrenheitprogram(document.getElementById('inputvalue').value)">Kelvin แปลงเป็น Fahrenheit</button>
+    
+    <script src="app.js"></script>
+    <p onclick='alert("I hope things will turn out fine.")'> สามารถกรอกรายละเอียดบนช่องว่างข้างบน </p>
+
+    <footer>
+        <p style=" color: rgb(31, 8, 241);
+        background-color: lightgray;
+        padding: 10px;
+        height: 50px;
+        text-align: center;
+        margin-top: 20px;">&copy Copyright 2022 Woramet - All right reserved</p>       
+    </footer>
+</body>

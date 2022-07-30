@@ -1,0 +1,35 @@
+html,body {
+    background-color: rgb(250, 238, 185);
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Mitr', sans-serif;
+}
+
+
+.buttom1{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    display: inline-block;
+    width: 200px;
+
+}
+
+.buttom2{
+    background-color: rgb(35, 122, 118);
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.end{
+    color: white;
+    background-color: lightgray;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+}

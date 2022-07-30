@@ -1,0 +1,11 @@
+header
+{
+  color : lightblue
+}
+
+.bg
+{
+  background-color: cornsilk;
+  border: 10px solid powderblue;
+  padding: 10px
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stlye.css">
+        <meta charset="utf-8">
+        <title>Convert Temperature.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stlye.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="bg">
+            <h1 class="header">Temperature Convert</h1>
+
+            <label for="type1">Your temperature : </label>
+            <br>
+            <input id="temp1" type="text" value="" />
+            <select id="type1">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="reaumur">Reaumur</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        
+            <label for="type2"><br>Temperature scale you want : </label>
+            <br>
+            <input id="temp2" type="text" value="" />
+            <select id="type2">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="reaumur">Reaumur</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+
+            <button onclick="convert(document.getElementById('temp1').value)">convert</button>
+        </div>
+        <script src="app.js"></script>
+
+        <footer>
+            <p style=" color: rgb(31, 8, 241);
+            background-color: lightgray;
+            padding: 10px;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;">&copy Copyright 2022 Woramet - All right reserved</p>       
+        </footer>
+    </body>
+</html>
